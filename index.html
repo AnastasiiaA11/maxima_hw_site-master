@@ -1,171 +1,627 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
-	<title>Индекс еда</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@300&family=PT+Serif:wght@400;700&family=Ruslan+Display&display=swap">
+	<title>Document</title>
 </head>
 
 <body>
 	<header>
-		<div>
-			<img src="../images/logo.png" alt="logo" />
+		<div class=" header container">
+			<div class="header__info">
+				<div class="info__list">
+					<ul class="info__items">
+						<img src="" alt="">
+						<li class="header__novgorod-masters"> <img src="#" alt="">Дома и бани от новгородских мастеров</li>
+						<li class="header__reviews"><img src="img/header/Vector 6.png" alt=""> <span
+								class="header__rating">Рейтинг
+								в Google</span> на основании 180
+							отзывов</li>
+						<li class="header__send-calculation">Прислать проект на расчет</li>
+						<li class="header__we-online"><img src="img/header/socials.png" alt="whatsapp"> Мы онлайн</li>
+						<li class="header__contact">+7 (800) 000-00-00</li>
+					</ul>
+				</div>
+			</div>
+			<nav class="header__menu">
+				<ul class="menu__items">
+					<li class="menu__item"><a href="" class="menu__link">проекты</a></li>
+					<li class="menu__item"><a href="" class="menu__link">фото работ</a></li>
+					<li class="menu__item"><a href="" class="menu__link">акции</a></li>
+					<li class="menu__item"><a href="" class="menu__link">услуги</a></li>
+					<li class="menu__item"><a href="" class="menu__link">заказчику</a></li>
+					<li class="menu__item"><a href="" class="menu__link">контакты</a></li>
+					<li class="menu__item"><a href="" class="menu__link"><img src="img/header/header.png"
+								alt="like">избранное</a>
+					</li>
+					<li class="menu__item"><a href="" class="menu__link"><img src="img/header/Union.png" alt="loupe">
+							поиск</a></li>
+				</ul>
+			</nav>
+			<div class="start__page">
+				<h2 class="start__title"><span class="start__bold">Строительство деревянных домов</span> под ключ в Курске
+				</h2>
+				<h3 class="start__text">Построим теплый и надежный дом <span class="start__text-bold">с гарантией 10
+						лет</span></h3>
+				<button class="start__button">рассчитать стоимость</button>
+				<div class="start__list">
+					<ul class="start__items">
+						<li class="start__items__info">40 собственных опытных бригад
+						</li>
+						<li class="start__items__info">Свое производство строительных материалов</li>
+						<li class="start__items__info">Тысячи довольных клиентов с 1998 года</li>
+						<li class="start__items__info">Гарантия на все строительные работы по договору</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<nav>
-			<a href="#stock">Акции</a>
-			<a href="#week">Блюда на неделю</a>
-			<a href="#categories">Категории</a>
-			<a href="#advantages">Преимущества</a>
-			<a href="#contacts">Контакты</a>
-		</nav>
 	</header>
-	<section id="banner">
-		<div>
-			<h1>Неделя летних овощей</h1>
-			<p>Специальная овощная корзина. Новые продукты, специальные цены, скидки!</p>
-			<button>Заказать со скидкой</button>
-		</div>
-	</section>
-	<section id="stock">
-		<h2>Акции</h2>
-		<article>
-			<h3>Сладкая корзина</h3>
-			<p>Произвольный выбор десертов по Вашему желанию.</p>
-			<span>ОТ 1 300 ₽</span>
-			<p>стоимость доставки до 200 ₽</p>
-			<button>Собрать корзину</button>
-		</article>
-		<article>
-			<h3>Минимум усилий</h3>
-			<p>Произвольный выбор продуктов по Вашему желанию.</p>
-			<span>ОТ 700 ₽</span>
-			<p>стоимость доставки до 200 ₽</p>
-			<button>Собрать корзину</button>
-		</article>
-	</section>
-	<section id="week">
-		<h2>Доставка готовой еды на неделю</h2>
-		<ul>
-			<li>
-				<mark>ЗОЖ</mark>
-			</li>
-			<li>
-				<mark>Овощное</mark>
-			</li>
-			<li>
-				<mark>Мясное</mark>
-			</li>
-			<li>
-				<mark>Птица</mark>
-			</li>
-			<li>
-				<mark>Рыбное</mark>
-			</li>
-			<li>
-				<mark>Детское</mark>
-			</li>
-			<li>
-				<mark>Родителям</mark>
-			</li>
-			<li>
-				<mark>Праздничное</mark>
-			</li>
-		</ul>
-	</section>
-	<section id="categories">
-		<h2>Категории блюд</h2>
-		<nav>
-			<a href="">Популярные блюда</a>
-			<a href="">Овощное</a>
-			<a href="">Мясное</a>
+	<main>
+
+		<section class="calculation">
+			<div class="container">
+				<div class="calculation__items">
+					<div class="calculation__cost">
+						<h2 class="calculation__title title__less"><span
+								class="calculation__title-normal less__highlight">Рассчитайте
+								предварительную
+								стоимость</span> дома за 1
+							минуту
+						</h2>
+						<div class="calculation__questions">
+							<h3 class="calculation__questions__title"><span class="calculation__num">01.</span>Что будем
+								строить?</h3>
+							<div class="calculation__questions__img">
+								<img src="img/calculation/Rectangle 7.png" alt="">
+								<img src="img/calculation/Rectangle 8.png" alt="">
+							</div>
+							<div class="calculation__questions__button">
+								<p class="calculation__questions__info"><span class="calculation__highlighting">Нажимайте на
+										вариант ответа</span> и переходите к следующему
+									вопросу</p>
+								<button class="calculation__questions__further">Далее</button>
+							</div>
+						</div>
+					</div>
+					<div class="calculation__info">
+						<img src="img/calculation/мужик 1.png" alt="">
+						<h3 class="calculation__info__name">Михаил Иванов</h3>
+						<p class="calculation__info__major">Ведущий архитектор</p>
+						<h4 class="calculation__info__answer">Ответив на вопросы <span
+								class="calculation__info__answer-highlighting">вы получите:</span></h4>
+						<ul class="calculation__info__list">
+							<li class="list">Гарантированную <span class="list__highlighting">скидку</span></li>
+							<li class="list list__list"><span class="list__highlighting-highlighting">Ориентировочную</span>
+								стоимость строительства</li>
+							<li class="list list__list"><span class="list__highlighting-highlighting">Точную подборку</span>
+								проектов исходя из ваших ответов</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="build">
+			<div class="container">
+				<div class="build__page">
+					<h2 class="build__title title "><span class="title__highlighting">Мы строим
+							деревянные дома и бани</span> с учетом всех особенностей
+						Курска</h2>
+					<div class="build__image">
+						<div class="build__image__house">
+							<h3>Каркасные дома</h3>
+							<p></p>
+							<a href="#">смотреть проекты</a>
+						</div>
+						<div class="build__image__house">
+							<h3>Перевозные бани</h3>
+							<p></p>
+							<a href="#">смотреть проекты</a>
+						</div>
+						<div class="build__image__house">
+							<h3>Дома из бруса</h3>
+							<p></p>
+							<a href="#">смотреть проекты</a>
+						</div>
+						<div class="build__image__house">
+							<h3>Бани из бруса</h3>
+							<p></p>
+							<a href="#">смотреть проекты</a>
+						</div>
+						<div class="build__image__house">
+							<h3>Срубы под усадку</h3>
+							<p></p>
+							<a href="#">смотреть проекты</a>
+						</div>
+						<div class="build__image__house">
+							<h3>Срубы под усадку</h3>
+							<p></p>
+							<a href="#">смотреть проекты</a>
+						</div>
+						<div class="build__image__house">
+							<h3>Каркасные бани</h3>
+							<p></p>
+							<a href="#">смотреть проекты</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="projects">
+			<div class="container">
+				<div class="projects__page">
+					<h2 class="projects__title title__highlighting">Посмотрите популярные проекты домов</h2>
+					<nav class="projects__menu">
+						<ul class="projects__list">
+							<li class="list__house">Одноэтажный</li>
+							<li class="list__house">С мансардой</li>
+							<li class="list__house">Двухэтажный</li>
+							<li class="list__house">С цокольным этажом</li>
+							<li class="list__house">Трехэтажные</li>
+							<li class="list__house">С панорамными окнами</li>
+							<li class="list__house">С гаражом</li>
+							<li class="list__house"><a href="" class="projects__all">Смотреть все</a></li>
+						</ul>
+					</nav>
+					<div class="projects__house">
+						<img src="img/projects/Rectangle 54.png" alt="" class="projects__img">
+						<h3 class="projects__text">“Атаман”</h3>
+						<div class="projects__info">
+							<div class="projects__characteristics">
+								<ul class="characteristics__list">
+									<li class="list__options">Площадь:108 м</li>
+									<li class="list__options">Размеры:7х9</li>
+								</ul>
+								<ul class="characteristics__list">
+									<li class="list__options">Срок стройки:16 дней</li>
+									<li class="list__options">Комнат:5</li>
+								</ul>
+								<ul class="characteristics__itoms">
+									<li class="itoms__option">Тип дома: Каркасный</li>
+									<li class="itoms__cost">Стоимость: от 1 780 000 руб</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="projects__house">
+						<img src="img/projects/Rectangle 54.png" alt="" class="projects__img">
+						<h3 class="projects__text">“Атаман”</h3>
+						<div class="projects__info">
+							<div class="projects__characteristics">
+								<ul class="characteristics__list">
+									<li class="list__options">Площадь:108 м</li>
+									<li class="list__options">Размеры:7х9</li>
+								</ul>
+								<ul class="characteristics__list">
+									<li class="list__options">Срок стройки:16 дней</li>
+									<li class="list__options">Комнат:5</li>
+								</ul>
+								<ul class="characteristics__itoms">
+									<li class="itoms__option">Тип дома: Каркасный</li>
+									<li class="itoms__cost">Стоимость: от 1 780 000 руб</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="projects__house">
+						<img src="img/projects/Rectangle 54.png" alt="" class="projects__img">
+						<h3 class="projects__text">“Атаман”</h3>
+						<div class="projects__info">
+							<div class="projects__characteristics">
+								<ul class="characteristics__list">
+									<li class="list__options">Площадь:108 м</li>
+									<li class="list__options">Размеры:7х9</li>
+								</ul>
+								<ul class="characteristics__list">
+									<li class="list__options">Срок стройки:16 дней</li>
+									<li class="list__options">Комнат:5</li>
+								</ul>
+								<ul class="characteristics__itoms">
+									<li class="itoms__option">Тип дома: Каркасный</li>
+									<li class="itoms__cost">Стоимость: от 1 780 000 руб</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="projects__house">
+						<img src="img/projects/Rectangle 54.png" alt="" class="projects__img">
+						<h3 class="projects__text">“Атаман”</h3>
+						<div class="projects__info">
+							<div class="projects__characteristics">
+								<ul class="characteristics__list">
+									<li class="list__options">Площадь:108 м</li>
+									<li class="list__options">Размеры:7х9</li>
+								</ul>
+								<ul class="characteristics__list">
+									<li class="list__options">Срок стройки:16 дней</li>
+									<li class="list__options">Комнат:5</li>
+								</ul>
+								<ul class="characteristics__itoms">
+									<li class="itoms__option">Тип дома: Каркасный</li>
+									<li class="itoms__cost">Стоимость: от 1 780 000 руб</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="projects__house">
+						<img src="img/projects/Rectangle 54.png" alt="" class="projects__img">
+						<h3 class="projects__text">“Атаман”</h3>
+						<div class="projects__info">
+							<div class="projects__characteristics">
+								<ul class="characteristics__list">
+									<li class="list__options">Площадь:108 м</li>
+									<li class="list__options">Размеры:7х9</li>
+								</ul>
+								<ul class="characteristics__list">
+									<li class="list__options">Срок стройки:16 дней</li>
+									<li class="list__options">Комнат:5</li>
+								</ul>
+								<ul class="characteristics__itoms">
+									<li class="itoms__option">Тип дома: Каркасный</li>
+									<li class="itoms__cost">Стоимость: от 1 780 000 руб</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="projects__house">
+						<img src="img/projects/Rectangle 54.png" alt="" class="projects__img">
+						<h3 class="projects__text">“Атаман”</h3>
+						<div class="projects__info">
+							<div class="projects__characteristics">
+								<ul class="characteristics__list">
+									<li class="list__options">Площадь:108 м</li>
+									<li class="list__options">Размеры:7х9</li>
+								</ul>
+								<ul class="characteristics__list">
+									<li class="list__options">Срок стройки:16 дней</li>
+									<li class="list__options">Комнат:5</li>
+								</ul>
+								<ul class="characteristics__itoms">
+									<li class="itoms__option">Тип дома: Каркасный</li>
+									<li class="itoms__cost">Стоимость: от 1 780 000 руб</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="idea">
+			<div class="container">
+				<div class="idea__page">
+					<h2 class="idea__title title title">Ваш <span class="title__highlighting">идеальный
+							дом</span> всего за 6 этапов</h2>
+					<ul class="idea__stages">
+						<li class="stage"><button class="stage__button ">Этап 1</button></li>
+						<li class="stage"><button class="stage__button">Этап 2</button></li>
+						<li class="stage"><button class="stage__button">Этап 3</button></li>
+						<li class="stage"><button class="stage__button">Этап 4</button></li>
+						<li class="stage"><button class="stage__button">Этап 5</button></li>
+						<li class="stage"><button class="stage__button">Этап 6</button></li>
+					</ul>
+					<div class="idea__description">
+						<img src="img/idea/Mask group.png" alt="Mask group">
+						<div class="description__stage">
+							<h3 class="description__title">Согласование проекта коттеджа</h3>
+							<ul class="description__lists">
+								<li class="description__list"><span class="description__highlighting">Выбор</span> объекта</li>
+								<li class="description__list"><span class="description__highlighting">Расчет</span> стоимости
+								</li>
+								<li class="description__list"><span class="description__highlighting">Утверждение</span>
+									планировки</li>
+							</ul>
+							<p class="description__info">Первый этап <span class="description__info-highlighting">помогает вам
+									узнать
+									преимущества работы с нами</span> и ни к чему вас не обязывает</p>
+							<div class="description__agreement">
+								<img src="#" alt="">
+								<p class="description__text">Пример договора</p>
+								<button class="description__download"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="stock">
+			<div class="container">
+				<div class="stock__page">
+					<h2 class="stock__title title"><span class="calculation__title title__highlighting">Акции и
+							подарки</span> для каждой семьи</h2>
+					<div class="stock__items">
+						<div class="items">
+							<h3 class="items__title">Любая перепланировка в подарок!</h3>
+							<p class="items__text"><span class="items__highlighting">Рыбатекст</span> используется дизайнерами,
+								<span class="items__highlighting">проектировщиками</span> и фронтендерами,
+								когда нужно выстро заполнить макеты или прототипы содержимым.
+							</p>
+							<button class="items__button">перейти к акции</button>
+						</div>
+						<div class="items">
+							<h3 class="items__title">Металлическая дверб в подарок!</h3>
+							<p class="items__text">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами,
+								когда нужно выстро заполнить макеты или прототипы содержимым.</p>
+							<button class="items__button">перейти к акции</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="examples">
+			<div class="container">
+				<div class="examples__page">
+					<h2 class="examples__page title"><span class="title__highlighting">Посмотрите</span> дома, построенные
+						нами за прошлый год</h2>
+					<div class="examples__image">тут фото домов</div>
+					<div class="examples__characteristics">
+						<h3 class="examples__title">Дом из сруба “Атаман” в Пестово</h3>
+						<ul class="examples__itoms">
+							<li class="itoms">Стоимость строительства: <span class="itoms__highlighting">780 000</span>руб</li>
+							<li class="itoms">Сроки строительства: <span class="itoms__highlighting">35</span>дней</li>
+							<li class="itoms">Общая площадь: <span class="itoms__highlighting">120</span>м.кв.</li>
+						</ul>
+						<div class="examples__options">
+							<ul class="options__list">
+								<li class="list">Площадь: <span class="options__list-highlighting">120 кв.м.</span></li>
+								<li class="list">Размеры: <span class="options__list-highlighting">7х9</span></li>
+								<li class="list">Тип работ: <span class="options__list-highlighting">Под ключ</span></li>
+							</ul>
+							<ul class="options__list">
+								<li class="list">Срок стройки: <span class="options__list-highlighting">16 дней</span></li>
+								<li class="list">Комнат: <span class="options__list-highlighting">5</span></li>
+								<li class="list">Фундамент: <span class="options__list-highlighting">Монолитная плита</span>
+								</li>
+							</ul>
+						</div>
+						<div class="examples__calculation">
+							<p class="examples__text list"><span
+									class="examples__highlight options__list-highlighting">Понравился дом?</span> Рассчитайте
+								стоимость в калькуляторе</p>
+							<button class="examples__button">Рассчитать стоимость</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="excursion">
+			<div class="section">
+				<div class="excursion__page">
+					<h2 class="excursion__title title__less">Запишитесь на <span class="less__highlight">бесплатную
+							экскурсию</span> по строящимся объектам
+					</h2>
+					<div class="excursion__information">
+						<h3 class="excursion__text">На экскурсии вы сможете пообщаться с прорабом
+							и строителями, а также:</h3>
+						<ul class="excursion__list">
+							<li class="excursion__list-title"><span class="excursion__list-highlight">Познакомитесь</span> с
+								технологией строительства</li>
+							<li class="excursion__list-title"><span class="excursion__list-highlight">Оцените</span> качество
+								материалов на стройплощадке</li>
+							<li class="excursion__list-title"> <span class="excursion__list-highlight">Зададите</span> вопросы
+								руководителю строительства</li>
+						</ul>
+						<form action="#" method="post" class="excursion__form">
+							<label for="indicate">Укажите дату:</label>
+							<input type="date" id="date" name="date">
+							<label for="numberphone">Введите телефон:</label>
+							<input type="tel" id="phone" name="tel">
+							<p class="excursion__submit"><input type="submit" value="Записаться на экскурсию"></p>
+						</form>
+						<p class="excursion__confidentiality">Нажимая на кнопку, вы соглашаетесь с условиями
+							Политики конфиденциальности</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="catalog">
+			<div class="container">
+				<div class="catalog__page">
+					<h2 class="catalog__title title"><span class="title__highlighting">Скачайте каталог проектов</span> с
+						ценами и планировками</h2>
+					<article class="catalog__window">
+						<h3 class="window__title"><span class="window__title-highlighting">Скачайте каталог</span> топовых
+							проектов</h3>
+						<p class="window__text">Мы вышлем подборку вам в мессенджер</p>
+						<p class="window__question">Куда отправить подборку?</p>
+						<div class="window__icon">
+							<ul class="window__list">
+								<li class="window__message">What’s app</li>
+								<li class="window__message">Viber</li>
+								<li class="window__message">Telegram</li>
+							</ul>
+						</div>
+						<form action="#" method="post">
+							<input type="tel" id="ph" name="tel" placeholder="+7">
+							<p class="window__submit"><input type="submit" value="Получить каталог проектов"></p>
+						</form>
+						<p class="window__confidentiality">Нажимая на кнопку, вы соглашаетесь с условиями
+							<span>Политики конфиденциальности</span>
+						</p>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="reviews">
+			<div class="container">
+				<div class="review__page">
+					<h2 class="review__title title"><span class="title__highlighting">Более 200 отзывов</span> от наших
+						клиентов</h2>
+					<div class="review__itoms">
+						<div class="review__itom">
+							<div class="review__client">
+								<img src="img/reviews/Rectangle 111 (2).png" alt="">
+								<h3 class="client__name">Дарья Достоевская</h3>
+								<p class="client__date">23 декабря 2022</p>
+							</div>
+							<p class="client__text">Рыбатекст используется дизайнерами,
+								проектировщиками и фронтендерами,когда нужно быстро заполнить макеты или прототипы содержимым...
+							</p>
+						</div>
+					</div>
+					<div class="review__itoms">
+						<div class="review__itom">
+							<div class="review__client">
+								<img src="img/reviews/Rectangle 111 (1).png" alt="">
+								<h3 class="client__name">Евгений Маяковский</h3>
+								<p class="client__date">23 декабря 2022</p>
+							</div>
+							<p class="client__text">Рыбатекст используется дизайнерами,
+								проектировщиками и фронтендерами,когда нужно быстро заполнить макеты или прототипы содержимым...
+							</p>
+						</div>
+					</div>
+					<div class="review__itoms">
+						<div class="review__itom">
+							<div class="review__client">
+								<img src="img/reviews/Rectangle 111 (2).png" alt="">
+								<h3 class="client__name">Дарья Достоевская</h3>
+								<p class="client__date">23 декабря 2022</p>
+							</div>
+							<p class="client__text">Рыбатекст используется дизайнерами,
+								проектировщиками и фронтендерами,когда нужно быстро заполнить макеты или прототипы содержимым...
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="director">
+			<div class="container">
+				<div class="direction__page">
+					<div class="direction__foto">
+						<img src="img/director/мужик2 1.png" alt="">
+					</div>
+					<div class="direction__info">
+						<h2 class="direction__title title"><span class="title__highlighting">Здравствуйте, я Олег
+								Соловьев,</span> директор и основатель
+							компании.</h2>
+						<p class="direction__text">На рынке строительных услуг мы уже 14 лет. за это время нам удалось
+							сформировать сплоченный коллектив специалистов с более
+							чем двадцатилетним стажем. Вместе с тем я слежу за тем, чтобы наши специалисты оставались в курсе
+							последних технологий, совершенствовали свои навыки.
+						</p>
+						<div class="direction__list">
+							<ul class="direction__list-number">
+								<li class="direction__list-info"><span class="direction__list-items">10</span> лет компания на
+									рынке</li>
+								<li class="direction__list-info"><span class="direction__list-items">200</span> + объектов
+									постреоно</li>
+								<li class="direction__list-info"><span class="direction__list-items">5</span> лет гарантия на
+									работы</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="answers">
+			<div class="container">
+				<div class="answers__page">
+					<div class="answers__info">
+						<h2 class="answers__title title">Мы готовы ответить на <span class="title__highlighting">любой
+								вопрос</span></h2>
+						<p class="answers__text">Рыбатекст используется дизайнерами,
+							<span class="answers__highlighting">проектировщиками</span> и фронтендерами, когда нужно выстро
+							заполнить <span class="answers__highlighting">макеты</span> или прототипы содержимым.
+						</p>
+					</div>
+					<div class="answers__questions">
+						<ul class="answers__list">
+							<li class="list__list"></li>
+							<li class="list__list"></li>
+							<li class="list__list"></li>
+							<li class="list__list"></li>
+							<li class="list__list"></li>
+							<li class="list__list"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="estimate">
+			<div class="container">
+				<div class="estimate__page">
+					<div class="estimate__info">
+						<h2 class="estimate__title title"><span class="title__highlighting">Если у вас уже есть смета на
+								строительство</span>
+							в 95% случаев мы предлагаем меньшую стоимость и без потери качества
+						</h2>
+						<p class="estimate__question">Как мы этого добиваемся?</p>
+						<ul class="estimate__list">
+							<li class="estimate__answear"><span class="estimate__highlighting">Оптовые скидки</span> на
+								проверенные материалы от партнеров (эномоия до 30%)
+							</li>
+							<li class="estimate__answear"><span class="estimate__highlighting">Оптимальный подбор</span>
+								материалов и поставщиков (экономия до 15%)</li>
+							<li class="estimate__answear"><span class="estimate__highlighting">Налаженный рабочий
+									процесс</span> без потери времени (экономия до 20%)</li>
+						</ul>
+					</div>
+					<article class="estimate__window">
+						<h3 class="estimate__window__title">Просто прикрепите готовую смету и вы узнаете, как сэкономить на
+							стройке</h3>
+						<p class="estimate__window__text">Инженер-сметчик рассчитает стоимость работ и материалов по оптовым
+							ценам</p>
+						<form action="#" method="post">
+							<input type="file" name="file" id="file">
+						</form>
+						<p class="estimate__window__question">Куда отправить подборку?</p>
+						<div class="estimate__window__icon">
+							<ul class="estimate__window__list">
+								<li class="estimate__window__message">What’s app</li>
+								<li class="estimate__window__message">Viber</li>
+								<li class="estimate__window__message">Telegram</li>
+							</ul>
+						</div>
+						<form action="#" method="post">
+							<input type="tel" id="tel" name="tel" placeholder="+7">
+							<p class="estimate__window__submit"><input type="submit" value="Получить смету"></p>
+						</form>
+						<p class="estimate__window__confidentiality">Нажимая на кнопку, вы соглашаетесь с условиями
+							<span>Политики конфиденциальности</span>
+						</p>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="feedback">
+			<div class="container">
+				<div class="feedback__page">
+					<div class="feedback__contacts">
+						<h2 class="feedback__contacts__title">Наши контакты</h2>
+					</div>
+					<div class="feedback__location">
+						<iframe src="URL" width="200" height="200"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<nav class="footer__menu">
+			<ul class="footer__menu__items">
+				<li class="footer__items"><a href="" class="footer__link">проекты</a></li>
+				<li class="footer__items"><a href="" class="footer__link">фото работ</a></li>
+				<li class="footer__items"><a href="" class="footer__link">акции</a></li>
+				<li class="footer__items"><a href="" class="footer__link">услуги</a></li>
+				<li class="footer__items"><a href="" class="footer__link">заказчику</a></li>
+				<li class="footer__items"><a href="" class="footer__link">контакты</a></li>
+				<li class="footer__items"><a href="" class="footer__link">избранное</a></li>
+				<li class="footer__items"><a href="" class="footer__link">поиск</a></li>
+			</ul>
 		</nav>
-		<article>
-			<img src="../images/img.png" alt="chiken">
-			<h3>Куриные крылья под соусом Терияки</h3>
-			<p>Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
-			<div>
-				<span>260 ₽</span>
-				<p>500 гр</p>
-				<button>В корзину</button>
-			</div>
-		</article>
-		<article>
-			<img src="../images/img.png" alt="chiken" />
-			<h3>Куриные крылья под соусом Терияки</h3>
-			<p>Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
-			<div>
-				<span>260 ₽</span>
-				<p>500 гр</p>
-				<button>В корзину</button>
-			</div>
-		</article>
-		<article>
-			<img src="../images/img.png" alt="chiken" />
-			<h3>Куриные крылья под соусом Терияки</h3>
-			<p>Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
-			<div>
-				<span>260 ₽</span>
-				<p>500 гр</p>
-				<button>В корзину</button>
-			</div>
-		</article>
-		<article>
-			<img src="../images/img.png" alt="chiken" />
-			<h3>Куриные крылья под соусом Терияки</h3>
-			<p>Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
-			<div>
-				<span>260 ₽</span>
-				<p>500 гр</p>
-				<button>В корзину</button>
-			</div>
-		</article>
-		<button>Больше блюд</button>
-	</section>
-	<section id="advantages">
-		<h2>Наши преимущества</h2>
-		<article>
-			<img src="../images/pic1.svg" alt="корзина" />
-			<h3>Какой путь проходит ваша еда</h3>
-			<span>Вы делаете заказ на коробку с недельным запасом полуфабрикатов и готовых блюд для всей семьи</span>
-		</article>
-		<article>
-			<img src="../images/pic2.svg" alt="производство" />
-			<h3>Как происходит производство</h3>
-			<span>За день до доставки мы сами готовим блюда из натуральных продуктов без консервантов, красителей и
-				гмо
-			</span>
-		</article>
-		<article>
-			<img src="../images/pic3.svg" alt="стандарты" />
-			<h3>Высокие стандарты качества</h3>
-			<span>Наши повара с многолетним опытом с любовью готовят каждую порцию блюда</span>
-		</article>
-		<article>
-			<img src="../images/pic4.svg" alt="доставка" />
-			<h3>Быстрая и качественная доставка</h3>
-			<span>Сами доставим всё прямов в вашу морозилку, сохранив температурный режим и качество наших блюд</span>
-		</article>
-	</section>
-	<section id="contacts">
-		<h2>Наши контакты</h2>
-		<h3>Мы находимся по адресу <a href="">г. Москва, Ленинский проспект, 75/9</a>
-		</h3>
-		<iframe
-			src="https://yandex.ru/map-widget/v1/?ll=37.544822%2C55.687067&mode=whatshere&whatshere%5Bpoint%5D=37.544932%2C55.686961&whatshere%5Bzoom%5D=16.13&z=16.05"
-			allowfullscreen></iframe>
-	</section>
-	<footer>
-		<div>
-			<img src="../images/logo.png" alt="logo" />
-		</div>
-		<nav>
-			<a href="">Акции</a>
-			<a href="">Блюда на неделю</a>
-			<a href="">Категории</a>
-			<a href="">Преимущества</a>
-			<a href="">Контакты</a>
-		</nav>
+		<p class="footer__right">Все права защищены 2022.</p>
+		<p class="footer__politics">Политика обработки персональных данных</p>
 	</footer>
 </body>
 
