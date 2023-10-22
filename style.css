@@ -5,6 +5,10 @@ body {
 	color: #FFFFFF;
 }
 
+.container{
+	max-width: 1105px;
+	margin: 0 auto;
+}
 .title__less {
 	font-size: 36px;
 	line-height: 37px;
@@ -197,10 +201,143 @@ body {
 }
 
 /*-------projects--------------*/
+.projects{
+	background-color:  #F5F6FA;
+}
 .projects__title {
 	font-weight: 600;
 }
 
+.projects__itoms{
+	display: flex;
+	flex-wrap: wrap;
+	width: 1077,38px;
+
+	
+}
+.projects__house {
+	height: 505.1px;
+	width: 349.59px;
+	display: inline-block;
+margin-bottom: 24.4px;
+background-color: #FFFFFF;
+}
+
+.projects__house:nth-child(1){
+margin-right: 28px;
+}
+.projects__house:nth-child(2){
+	margin-right: 28px;
+	}
+.projects__house:nth-child(4){
+		margin-right: 28px;
+	}
+	.projects__house:nth-child(5){
+		margin-right: 28px;
+	}
+
+.projects__img {
+	width: 349.59px;
+height: 220.2px;
+border-radius: 9.95px
+}
+.projects__text {
+font-size: 29px;
+font-weight: 700;
+line-height: 29px;
+color: #000000;
+padding: 28.08px 0px 0px 31.1px;
+}
+.projects__block-info{
+	width: 349.59px;
+	height: 284.9px;
+}
+
+.projects__info {
+}
+.projects__characteristics {
+	padding: 16.33px 28.5px 0px 31.1px;
+}
+
+.projects__block{
+	display: flex;
+}
+.projects__characteristics-list {
+
+}
+
+.list-one{
+	padding-right: 30px;
+}
+.list-two{
+	
+}
+
+.one{
+	padding-bottom: 8px;
+}
+.projects__list-options {
+font-size: 13px;
+line-height: 13px;
+color: #7A7D81;
+}
+
+.options{
+	display: flex;
+	justify-content: space-between;
+}
+
+.projects__highlight {
+font-size: 13px;
+font-weight: 600;
+line-height: 13px;
+}
+.projects__characteristics-itoms {
+	margin-top: 30.79px;
+}
+
+.projects__characteristics-itoms-highlight{
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 13px;
+	color: #5C5F66;
+}
+
+.projects__numbers{
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+color: #73B918;
+
+}
+.projects__itoms-cost {
+}
+
+.projects__button{
+	display: flex;
+	padding-top: 24.47px;
+	padding-bottom: 29.86px;
+}
+.projects__button-button{
+	width: 181.64px;
+height: 39.81px;
+top: 2976.93px;
+left: 198.1px;
+border-radius: 4.98px;
+background-color: #FEAA01;
+color: white;
+}
+
+.projects__button-text{
+font-size: 9px;
+line-height: 9px;
+color: #B8B8BA;
+width: 76px;
+height: 18px;
+
+
+}
+/*----------------idea------------------*/
 .stage__button:hover {
 	color: #FFFFFF;
 	background-color: #73B918;
