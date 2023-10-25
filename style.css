@@ -63,6 +63,7 @@ body {
 	line-height: 18px;
 }
 
+.menu__item {}
 
 .menu__link {
 	font-size: 16px;
@@ -204,15 +205,17 @@ body {
 /*-------projects--------------*/
 .projects {
 	background-color: #F5F6FA;
+	padding-bottom: 113px;
 }
 
 .projects__columns {
 	width: 1106px;
+
 }
 
 .projects__column {
 	display: flex;
-
+	margin-bottom: 25px;
 }
 
 .projects__item {
@@ -220,6 +223,7 @@ body {
 	height: 505.1px;
 	margin-right: 29px;
 	background-color: rgba(255, 255, 255, 1);
+	border-radius: 14px;
 }
 
 .projects__item:last-child {
@@ -259,7 +263,7 @@ body {
 .projects__list-link {
 	padding: 4px 9px;
 	background-color: rgba(239, 239, 239, 1);
-
+	border-radius: 4px;
 }
 
 .projects__list-link:hover {
@@ -275,6 +279,7 @@ body {
 	font-size: 13px;
 	font-weight: 600;
 	line-height: 13px;
+	margin-left: 30px;
 }
 
 
@@ -365,7 +370,7 @@ body {
 	font-size: 9px;
 	line-height: 8px;
 	color: #B8B8BA;
-	background: url(img/projects/Group\ 20.png) 0 50% no-repeat;
+	background: url(img/projects/logo.png) 0 50% no-repeat;
 	padding-left: 32px;
 	margin-top: 10px;
 	width: 76px;
