@@ -202,6 +202,72 @@ body {
 	font-weight: 400;
 }
 
+/*-------build--------------*/
+
+.build__page {}
+
+.build__title {}
+
+
+.title__highlighting {}
+
+.build__container {
+	width: 1114px;
+	height: 541px;
+	background-color: blue;
+
+
+}
+
+.build__column {
+	display: flex;
+	width: 348px;
+	margin-right: 31px;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 13px;
+	vertical-align: top;
+}
+
+.build__column:last-child {
+	margin-right: 0px;
+}
+
+
+.build__card {
+	background-color: pink;
+}
+
+.build__wrapper {}
+
+.build__subtitle {
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 29px;
+
+}
+
+.build__tag {
+	font-size: 9px;
+	font-weight: 600;
+	line-height: 9px;
+	color: #000000;
+
+}
+
+.build__price {}
+
+.build__price_big {
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 29px;
+}
+
+.build__button {}
+
+
+
+
 /*-------projects--------------*/
 .projects {
 	background-color: #F5F6FA;
@@ -367,13 +433,13 @@ body {
 }
 
 .projects__layout {
-	font-size: 9px;
+	font-size: 8px;
 	line-height: 8px;
 	color: #B8B8BA;
 	background: url(img/projects/logo.png) 0 50% no-repeat;
-	padding-left: 32px;
+	padding-left: 16px;
 	margin-top: 10px;
-	width: 76px;
+	width: 92px;
 	height: 18px;
 	display: inline-block;
 }
