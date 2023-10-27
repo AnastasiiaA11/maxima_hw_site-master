@@ -213,9 +213,8 @@ body {
 
 .build__container {
 	width: 1114px;
-	height: 541px;
 	background-color: blue;
-
+	margin: auto;
 
 }
 
@@ -235,7 +234,36 @@ body {
 
 
 .build__card {
-	background-color: pink;
+	margin-bottom: 29px;
+	padding: 40px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+.card_img1 {
+	background-image: url('img/build/img1.jpg');
+}
+
+.card_img2 {
+	background-image: url('img/build/img2.jpg');
+}
+
+.card_img3 {
+	background-image: url('img/build/img3.jpg');
+}
+
+.card_img4 {
+	background-image: url('img/build/img4.jpg');
+}
+
+.card_img5 {
+	background-image: url('img/build/img5.jpg');
+}
+
+.card_img6 {
+	background-image: url('img/build/img6.jpg');
 }
 
 .build__wrapper {}
@@ -244,15 +272,22 @@ body {
 	font-size: 29px;
 	font-weight: 700;
 	line-height: 29px;
-
+	position: relative;
 }
 
 .build__tag {
+	padding: 7px 5px;
+	width: 80px;
 	font-size: 9px;
 	font-weight: 600;
 	line-height: 9px;
+	text-align: center;
+	border-radius: 12px;
+	background-color: #fff;
 	color: #000000;
-
+	position: absolute;
+	top: 45px;
+	left: 234px;
 }
 
 .build__price {}
@@ -261,9 +296,21 @@ body {
 	font-size: 29px;
 	font-weight: 700;
 	line-height: 29px;
+
 }
 
-.build__button {}
+.build__button {
+	display: block;
+	width: 159px;
+	padding: 12px 0px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 13px;
+	color: white;
+	border-radius: 4px;
+	background-color: rgba(115, 185, 24, 1);
+}
 
 
 
