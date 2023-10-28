@@ -3,6 +3,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	color: #FFFFFF;
+	background-color: #F5F6FA;
 }
 
 .container {
@@ -206,20 +207,24 @@ body {
 
 .build__page {}
 
-.build__title {}
+.build__title {
+	font-size: 43px;
+    width: 1021px;
+	margin-top: 136px;
+    margin-bottom:  47px;
+    text-align: center;
+}
 
 
 .title__highlighting {}
 
 .build__container {
 	width: 1114px;
-	background-color: blue;
 	margin: auto;
 
 }
 
 .build__column {
-	display: flex;
 	width: 348px;
 	margin-right: 31px;
 	box-sizing: border-box;
@@ -234,16 +239,30 @@ body {
 
 
 .build__card {
-	margin-bottom: 29px;
-	padding: 40px;
-	background-position: center;
-	background-size: cover;
-	position: relative;
+	
+    padding: 30px;
+    margin-bottom: 29px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
 }
 
+.build__subtitle{
+font-size: 29px;
+font-weight: 700;
+ margin: 0 0 28px;
+  width: 60%;
+    position: relative;
+    z-index: 1;
+}
 
+.build__subtitle_mb-big{
+	 margin-bottom: 267px;
+}
 .card_img1 {
 	background-image: url('img/build/img1.jpg');
+	height: 389px;
 }
 
 .card_img2 {
@@ -275,41 +294,53 @@ body {
 	position: relative;
 }
 
+.build__button-over{
+	bottom: 30px;
+}
 .build__tag {
-	padding: 7px 5px;
-	width: 80px;
-	font-size: 9px;
-	font-weight: 600;
-	line-height: 9px;
-	text-align: center;
-	border-radius: 12px;
-	background-color: #fff;
+	 font-size: 9px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 8px;
+    border-radius: 12px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 1;
 	color: #000000;
-	position: absolute;
-	top: 45px;
-	left: 234px;
 }
 
-.build__price {}
+.build__price {
+	position: absolute;
+    right: 40px;
+    bottom: 40px;
+    color: #fff;
+    z-index: 1;
+}
 
+.build__price-over{
+	right: 180px;
+	bottom: 80px;
+}
 .build__price_big {
-	font-size: 29px;
-	font-weight: 700;
-	line-height: 29px;
+	font-size: 24px;
+    font-weight: 600;
+    color: white;
 
 }
 
 .build__button {
-	display: block;
-	width: 159px;
-	padding: 12px 0px;
-	text-align: center;
-	font-size: 10px;
-	font-weight: 700;
-	line-height: 13px;
-	color: white;
-	border-radius: 4px;
-	background-color: rgba(115, 185, 24, 1);
+	background-color: #73B918;
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 14px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 
