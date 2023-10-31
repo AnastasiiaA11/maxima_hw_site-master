@@ -619,6 +619,67 @@ font-weight: 700;
 	border-radius: 4.97px;
 }
 
+/*-------stock--------------*/
+.stock {
+}
+.container {
+}
+.stock__page {
+}
+.stock__title {
+}
+.title {
+}
+.calculation__title {
+}
+.title__highlighting {
+}
+.stock__column {
+	background-color: pink;
+	width: 533px;
+margin-right:37px;
+box-sizing: border-box;
+    display: inline-block;
+}
+
+.stock__column2{
+	margin-right: 0px;
+}
+.stock__card {
+}
+.stock__img1 {
+}
+.stock__container {
+	background-color: blue;
+	width: calc(533px+533px+37px);
+	margin: auto;
+	display: flex;
+	font-size: 14px;
+}
+.stock__card-title {
+font-size: 27px;
+font-weight: 600;
+line-height: 26px;
+
+}
+.stock__card-text {
+}
+.stock__card-highlighting {
+}
+.items__highlighting {
+}
+.stock__card-button {
+}
+
+
+
+
+
+
+
+
+
+
 /*-------examples--------------*/
 
 .examples__title {
