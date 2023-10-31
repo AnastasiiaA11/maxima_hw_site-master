@@ -634,20 +634,28 @@ font-weight: 700;
 }
 .title__highlighting {
 }
-.stock__column {
+.stock__card {
 	background-color: pink;
 	width: 533px;
 margin-right:37px;
 box-sizing: border-box;
     display: inline-block;
+	height: 296px;
+	position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
-.stock__column2{
+.column2{
 	margin-right: 0px;
 }
-.stock__card {
-}
+
 .stock__img1 {
+	background-image: url('img/stock/house1.jpg');
+}
+
+.stock__img2{
+	background-image: url('img/stock/house2.jpg');
 }
 .stock__container {
 	background-color: blue;
@@ -659,23 +667,35 @@ box-sizing: border-box;
 .stock__card-title {
 font-size: 27px;
 font-weight: 600;
-line-height: 26px;
 
+margin: 47px 130px 0px 43px;
+}
+
+.card-title_with{
+	width: 260px;
 }
 .stock__card-text {
+font-size: 12px;
+font-weight: 400;
+margin: 19px 232px 30px 43px;
 }
 .stock__card-highlighting {
+font-weight: 600;
+
+
 }
 .items__highlighting {
 }
 .stock__card-button {
+	background-color: #FFFFFF;
+	padding: 13px 54px;
+	border-radius: 5px;
+font-weight: 700;
+line-height: 14px;
+text-transform: uppercase;
+color: #000;
+margin: 0px 0px 0px 43px;
 }
-
-
-
-
-
-
 
 
 
