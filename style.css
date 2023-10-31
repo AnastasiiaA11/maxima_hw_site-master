@@ -620,20 +620,13 @@ font-weight: 700;
 }
 
 /*-------stock--------------*/
-.stock {
-}
-.container {
-}
-.stock__page {
-}
+
 .stock__title {
+	margin-top: 129px;
+	margin-bottom: 41px;
+	text-align: center;
 }
-.title {
-}
-.calculation__title {
-}
-.title__highlighting {
-}
+
 .stock__card {
 	background-color: pink;
 	width: 533px;
@@ -644,6 +637,8 @@ box-sizing: border-box;
 	position: relative;
     background-position: center;
     background-size: cover;
+	border-radius: 5px;
+	margin-bottom: 179px;
 }
 
 .column2{
@@ -658,7 +653,6 @@ box-sizing: border-box;
 	background-image: url('img/stock/house2.jpg');
 }
 .stock__container {
-	background-color: blue;
 	width: calc(533px+533px+37px);
 	margin: auto;
 	display: flex;
@@ -667,7 +661,6 @@ box-sizing: border-box;
 .stock__card-title {
 font-size: 27px;
 font-weight: 600;
-
 margin: 47px 130px 0px 43px;
 }
 
@@ -681,9 +674,8 @@ margin: 19px 232px 30px 43px;
 }
 .stock__card-highlighting {
 font-weight: 600;
-
-
 }
+
 .items__highlighting {
 }
 .stock__card-button {
@@ -694,11 +686,8 @@ font-weight: 700;
 line-height: 14px;
 text-transform: uppercase;
 color: #000;
-margin: 0px 0px 0px 43px;
+margin: 41px 0px 0px 43px;
 }
-
-
-
 
 /*-------examples--------------*/
 
@@ -902,15 +891,31 @@ margin: 0px 0px 0px 43px;
 	background-color: rgba(55, 55, 57, 1);
 }
 
-
+.footer__menu__items{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 34px;
+	padding-bottom: 57px;
+}
 .footer__link {
 	color: white;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 19px;
-
+	text-transform: uppercase;
+	
 }
 
+.footer__img-heart{
+	background: url('img/footer/heard.png')0 center  no-repeat;
+	padding-left: 20px;
+}
+
+.footer__info{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 32px;
+}
 .footer__right {
 	font-size: 15px;
 	font-weight: 500;
@@ -922,4 +927,5 @@ margin: 0px 0px 0px 43px;
 	font-weight: 500;
 	line-height: 18px;
 	color: rgba(229, 181, 62, 1);
+	text-decoration:underline;
 }
