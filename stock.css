@@ -1,0 +1,134 @@
+/*-------stock--------------*/
+
+@media (min-width: 961px) and (max-width: 1150px) {
+   
+ }
+
+ @media (max-width: 961px) {
+    .stock__card{
+        width: 300px;
+        align-items: center;
+    }
+    .stock__container{
+        flex-direction: column; 
+        width: 530px;
+    } 
+ }
+
+.stock__title {
+	margin-top: 129px;
+	margin-bottom: 41px;
+	text-align: center;
+}
+
+.stock__card {
+	background-color: pink;
+	width: 533px;
+margin-right:37px;
+box-sizing: border-box;
+    display: inline-block;
+	height: 296px;
+	position: relative;
+    background-position: center;
+    background-size: cover;
+	border-radius: 5px;
+	
+}
+
+.column2{
+	margin-right: 0px;
+}
+
+.stock__img1 {
+	background-image: url('img/stock/house1.jpg');
+}
+
+.stock__img2{
+	background-image: url('img/stock/house2.jpg');
+}
+.stock__container {
+	width: calc(533px+533px+37px);
+	margin: auto;
+	display: flex;
+	font-size: 14px;
+}
+.stock__card-title {
+font-size: 27px;
+font-weight: 600;
+margin: 47px 130px 0px 43px;
+}
+
+.card-title_with{
+	width: 260px;
+}
+.stock__card-text {
+font-size: 12px;
+font-weight: 400;
+margin: 19px 232px 30px 43px;
+}
+.stock__card-highlighting {
+font-weight: 600;
+}
+
+.items__highlighting {
+}
+.stock__card-button {
+	background-color: #FFFFFF;
+	padding: 13px 54px;
+	border-radius: 5px;
+font-weight: 700;
+line-height: 14px;
+text-transform: uppercase;
+color: #000;
+margin: 41px 0px 0px 43px;
+}
+
+/*-------examples--------------*/
+
+.examples__title {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 37px;
+	color: #4C4F56;
+}
+
+.itoms {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 13px;
+	color: #8E9093;
+}
+
+.itoms__highlighting {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 29px;
+	color: #434749;
+}
+
+.list {
+	font-size: 18px;
+	line-height: 19px;
+	color: #56595F;
+}
+
+.options__list-highlighting {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 19px;
+	color: #56595F;
+
+}
+
+.examples__button {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 17px;
+	color: white;
+	width: 233.68px;
+	height: 43.61px;
+	top: 5494.62px;
+	left: 1039.41px;
+	border-radius: 5.45px;
+	background-color: #FEAA01;
+}
