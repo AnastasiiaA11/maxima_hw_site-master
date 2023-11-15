@@ -1,19 +1,7 @@
 /*-------stock--------------*/
 
-@media (min-width: 961px) and (max-width: 1150px) {
-   
- }
 
- @media (max-width: 961px) {
-    .stock__card{
-        width: 300px;
-        align-items: center;
-    }
-    .stock__container{
-        flex-direction: column; 
-        width: 530px;
-    } 
- }
+
 
 .stock__title {
 	margin-top: 129px;
@@ -24,18 +12,18 @@
 .stock__card {
 	background-color: pink;
 	width: 533px;
-margin-right:37px;
-box-sizing: border-box;
-    display: inline-block;
+	margin-right: 37px;
+	box-sizing: border-box;
+	display: inline-block;
 	height: 296px;
 	position: relative;
-    background-position: center;
-    background-size: cover;
+	background-position: center;
+	background-size: cover;
 	border-radius: 5px;
-	
+
 }
 
-.column2{
+.column2 {
 	margin-right: 0px;
 }
 
@@ -43,44 +31,48 @@ box-sizing: border-box;
 	background-image: url('img/stock/house1.jpg');
 }
 
-.stock__img2{
+.stock__img2 {
 	background-image: url('img/stock/house2.jpg');
 }
+
 .stock__container {
 	width: calc(533px+533px+37px);
 	margin: auto;
 	display: flex;
 	font-size: 14px;
 }
+
 .stock__card-title {
-font-size: 27px;
-font-weight: 600;
-margin: 47px 130px 0px 43px;
+	font-size: 27px;
+	font-weight: 600;
+	margin: 47px 130px 0px 43px;
 }
 
-.card-title_with{
+.card-title_with {
 	width: 260px;
 }
+
 .stock__card-text {
-font-size: 12px;
-font-weight: 400;
-margin: 19px 232px 30px 43px;
-}
-.stock__card-highlighting {
-font-weight: 600;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 19px 232px 30px 43px;
 }
 
-.items__highlighting {
+.stock__card-highlighting {
+	font-weight: 600;
 }
+
+.items__highlighting {}
+
 .stock__card-button {
 	background-color: #FFFFFF;
 	padding: 13px 54px;
 	border-radius: 5px;
-font-weight: 700;
-line-height: 14px;
-text-transform: uppercase;
-color: #000;
-margin: 41px 0px 0px 43px;
+	font-weight: 700;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 41px 0px 0px 43px;
 }
 
 /*-------examples--------------*/
