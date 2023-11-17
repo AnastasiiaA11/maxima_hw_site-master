@@ -1,0 +1,115 @@
+.examples__page-block {
+	padding-top: 178px;
+	padding-bottom: 179px;
+}
+
+.examples__page {
+	padding-bottom: 50px;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.examples__block {
+	display: flex;
+}
+
+.examples__image {
+	width: 535px;
+}
+
+.examples__image-big {
+	padding-bottom: 20px;
+}
+
+.examples__image-small {
+	padding-right: 7.5px;
+}
+
+.examples__image-small:last-child {
+	padding-right: 0px;
+}
+
+.examples__characteristics {
+	padding-left: 30px;
+}
+
+.examples__look-map {
+	color: rgba(133, 183, 62, 1);
+}
+
+.examples__look-map::before {
+	content: url(img/examples/Subtract.png);
+	padding-right: 15px;
+
+}
+
+.examples__title {
+	width: 391px;
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+.examples__itoms {
+	display: flex;
+	justify-content: space-between;
+}
+
+.itoms {
+	box-sizing: border-box;
+	width: 200px;
+	padding-bottom: 10px;
+	line-height: 28px;
+}
+
+.itoms::before {
+	content: "\2022";
+	/* юникод точки */
+	color: rgba(245, 186, 64, 1);
+	/* Менять цвет */
+	font-weight: bolder;
+	/* Менять жирность */
+	display: block;
+	/* Расстояние между точкой и текстом */
+	width: 1em;
+	font-size: 35px;
+	text-shadow: rgba(255, 92, 0, 1) 1px 0 8px;
+	/* Задать значение расстояния */
+	padding-top: 17px;
+}
+
+.size {
+	width: 150px;
+}
+
+.examples__options {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 55px;
+}
+
+.options__list {}
+
+.list {
+	line-height: 18px;
+}
+
+.examples__calculation {
+	display: flex;
+	justify-content: space-between;
+	width: 538px;
+}
+
+.examples__text {
+	width: 263px;
+}
+
+.examples__button {
+	width: 234px;
+	text-align: center;
+}
+
+.examples__cul {
+	padding-left: 15px;
+}
