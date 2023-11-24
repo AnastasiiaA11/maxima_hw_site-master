@@ -1,7 +1,20 @@
 /*-------build--------------*/
 
+@media screen and (min-width: 576px) and (max-width: 991px) {
 
+	.build__container,
+	.build__column {
+		display: inline;
+	}
 
+	.title,
+	.title__highlighting {
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {}
 
 .build__page {}
 
