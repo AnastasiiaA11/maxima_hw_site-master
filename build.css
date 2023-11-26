@@ -1,20 +1,5 @@
 /*-------build--------------*/
 
-@media screen and (min-width: 576px) and (max-width: 991px) {
-
-	.build__container,
-	.build__column {
-		display: inline;
-	}
-
-	.title,
-	.title__highlighting {
-		font-size: 14px;
-	}
-
-}
-
-@media screen and (min-width: 992px) {}
 
 .build__page {}
 
@@ -154,4 +139,77 @@
 	text-align: center;
 	position: relative;
 	z-index: 1;
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+	.build{
+		max-width: 495.5px;
+	margin: 0 auto;
+	}
+	
+	.build .build__page h2 .title__highlighting{
+		font-size: 32px;
+	}
+
+	.build .build__page h2 {
+		font-size: 32px;
+		width: 700px;
+		text-align: center;
+	}
+	.build__container{
+
+		width: 1000px;
+	}
+	.build__column {
+	}
+
+	.column-size{
+		display: flex;
+		flex-wrap: wrap;
+		width: 800px;
+	}
+
+	.siz{
+		margin-right: 34px;
+		
+	}
+
+	.siz2{
+		padding-right: 55px;
+	}
+
+	
+}
+
+@media screen and (max-width: 576px)
+{
+	.build{
+		max-width: 288px;
+	margin: 0 auto;
+	}
+
+	.build .build__page h2 .title__highlighting{
+		font-size: 18px;
+		line-height: 12px;
+		margin: 10px;
+	}
+
+	.build .build__page h2 {
+		font-size: 15px;
+		width: 350px;
+		text-align: center;
+		line-height: 12px;
+		margin: 10px;
+	}
+
+	.build__container{
+		display: inline;
+		
+	}
+
 }
