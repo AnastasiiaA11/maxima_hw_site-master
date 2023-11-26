@@ -1,8 +1,5 @@
 /*-------stock--------------*/
 
-
-
-
 .stock__title {
 	margin-top: 129px;
 	margin-bottom: 41px;
@@ -123,4 +120,54 @@
 	left: 1039.41px;
 	border-radius: 5.45px;
 	background-color: #FEAA01;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1090px) {
+	.stock__card-title {
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px){
+
+	.stock{
+		max-width: 288px;
+	margin: 0 auto;
+	}
+	.stock__container{
+		max-width: 288px;
+		flex-wrap: wrap;
+	    margin: auto;
+	}
+
+	.stock__card-text{
+		margin: 19px 100px 30px 43px;
+	}
+	.stock .stock__page h2 .title__highlighting{
+		font-size: 18px;
+		line-height: 12px;
+		margin: 10px;
+	}
+
+	.stock .stock__page h2 {
+		font-size: 15px;
+		width: 350px;
+		text-align: center;
+		line-height: 12px;
+		margin: 10px;
+	}
+	.column1 {
+		padding-right: 10px;
+		margin-bottom: 37px;
+	}
+	.stock__card:last-child{
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 576px){
+
 }
